@@ -1,9 +1,6 @@
 .list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  
-  
   background: #eee1e1;
   background-size: cover;
 

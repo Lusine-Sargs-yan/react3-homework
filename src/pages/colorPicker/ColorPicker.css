@@ -1,0 +1,24 @@
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue{
+  color: blue;
+}
+
+.alpha{
+  opacity: 1.0;
+}
+
+.div-container {
+  text-align: center;
+}
+.color-box {
+  margin: 0 auto 22px;
+  height: 300px;
+  width: 300px;
+}

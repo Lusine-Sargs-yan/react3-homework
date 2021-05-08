@@ -1,13 +1,14 @@
 import { useState } from "react";
-import GameList from "../components/GameList";
-import { CARDS_DATA } from "../service/data";
+import GameList from "../../components/GameList";
+import { CARDS_DATA } from "../../service/data";
+
 import "./Memory.css";
 
 
 
 export default function MemoryGame() {
 
-  const [cardsData, setCardsData] = useState(CARDS_DATA);
+  const [cardsData, setCardsData] = useState(CARDS_DATA );
   let [userScore, setUserScore] = useState(0);
   let  [message, setMessage] = useState('');
   const length = cardsData.length;

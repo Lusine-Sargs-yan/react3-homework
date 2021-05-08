@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import Nav from "./memoryGame/components/Nav";
-import { Routes } from "./memoryGame/helper/routes";
+import Nav from "./components/Nav";
+import { Routes } from "./helper/routes";
 
 export default function App() {
   return (
     <Router>
       <div>
-        <Nav/>
+        <Nav />
         <Switch>
           {Routes.map(({route, component: Component}) => (
             <Route exact  path={route}>
