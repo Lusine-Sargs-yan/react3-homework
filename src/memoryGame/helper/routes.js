@@ -1,5 +1,5 @@
-import Home from "./Home";
-import MemoryGame from "./MemoryGame";
+import Home from "../pages/Home";
+import MemoryGame from "../pages/MemoryGame";
 
 export const Routes = [
   {
@@ -10,7 +10,7 @@ export const Routes = [
   {
     route: "/memory",
     component: MemoryGame,
-    title: 'MemoryGame'
+    title: 'Memory Game'
   },
 
  

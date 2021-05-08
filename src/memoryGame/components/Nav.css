@@ -1,0 +1,16 @@
+.main-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin: 30px;
+}
+
+.link {
+  text-decoration: none;
+  color: #72ddeb;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

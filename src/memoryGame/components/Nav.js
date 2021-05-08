@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
-import { Routes } from "./routes";
+import { Routes } from "../helper/routes";
+import "./Nav.css";
 
 export default function Nav() {
 
   return (
     <div>
-      <nav>
-        {Routes.map(({route, title}) => <Link to={route}>{title}  </Link>)}  
+      <nav className="main-navbar">
+        {Routes.map(({route, title}) => <Link className="link" to={route}>{title}  </Link>)}  
       </nav>
     </div>
   )
