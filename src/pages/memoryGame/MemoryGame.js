@@ -2,7 +2,9 @@ import { useState } from "react";
 import GameList from "../../components/GameList";
 import { CARDS_DATA } from "../../service/data";
 
+import 'semantic-ui-css/semantic.min.css'
 import "./Memory.css";
+
 
 
 
@@ -53,7 +55,7 @@ export default function MemoryGame() {
     return <p className="message">{message}</p>
   } 
   return (
-    <div>
+    <div className="div-container">
       <h2 className="game-title">Memory Game</h2>
       <h3 className="rule">Please, pay attention  to this rule, to win game your score should be {highScore} point</h3>
       <h3 className="score-title">Your score is {userScore}</h3>

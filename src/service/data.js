@@ -85,3 +85,5 @@ export const CARDS_DATA = [
   }
     
 ];
+
+export const CitiesData = ['Yerevan', 'London', 'Toronto'];

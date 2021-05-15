@@ -10,3 +10,7 @@
 	
 ### You need to have four sliders (or inputs) to control four parameters of the color: red, green, blue and alpha.
 ### Once you change the sliders (or inputs), you can see the background color changing based on the current parameters.
+
+
+### Current weather tracker
+### Map some cities in the / page, then when user clicks on custom city redirect to /selected-city and then get the weather data using the upper endpoint.

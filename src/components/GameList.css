@@ -1,12 +1,18 @@
-.list {
+/* .list {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  /* flex-wrap: wrap;
+  align-items: flex-start; */
+  /* justify-content: flex-start; */
+  /* flex-direction: row;
+
   background: #eee1e1;
   background-size: cover;
 
-}
+} */ 
 
-.card {
+/* .card {
   width: 320px;
-  margin: 20px
-}
+  margin: 20px;
+  
+} */
